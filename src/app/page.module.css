@@ -1,0 +1,121 @@
+.bgWhite {
+  background-image: url('../../public/background.jpg');
+  background-size: cover; 
+  
+}
+
+.logoContainer {
+  display: flex;
+  justify-content:center;
+  padding: 2rem 0;
+}
+
+.minHScreen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-top:-10% ;
+}
+
+.formContainer {
+  background-color: #7e8189be; /* bleu-900 */
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: -2.5rem;
+  max-width: 25rem;
+  width: 100%;
+}
+
+.formTitle {
+  color: white;
+  text-align: center;
+  margin: 1.5rem 0;
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 800; /* font-extrabold */
+}
+
+.form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem; /* mb-5 */
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #d1d5db; /* border-gray-300 */
+  border-radius: 9999px; /* rounded-full */
+  padding: 0.5rem 0.75rem; /* px-2 py-2 */
+}
+
+.icon {
+  color: #6b7280; /* text-gray-500 */
+  height: 1.5rem; /* h-6 */
+  width: 1.5rem; /* w-6 */
+}
+
+.input {
+  flex: 1;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 9999px;
+  /* rounded-full */
+}
+.input:focus {
+  outline: none;
+}
+
+.submitButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.submitButton {
+  display: flex;
+  justify-content: center;
+  width: 15rem; /* w-60 */
+  padding: 0;
+  width: 15rem; /* w-60 */
+  justify-content: center; /* justify-center */
+  padding: 0.5rem 1rem; /* py-2 px-4 */
+  border: 1px solid transparent; /* border border-transparent */
+  font-size: 0.875rem; /* text-sm */
+  font-weight: 500; 
+  border-radius: 9999px; 
+  color: white; 
+  background-color: #004AAD  ;
+  outline: none; 
+  position: relative; 
+}
+
+.submitButton:hover {
+  background-color: #4f46e5; /* hover:bg-indigo-700 */
+}
+
+.submitButton:focus {
+  box-shadow: 0 0 0 2px transparent, 0 0 0 4px #4338ca; /* focus:ring-2 focus:ring-indigo-500 */
+  z-index: 1; /* S'assurer que le focus ring est visible */
+}
+.sign_up{
+  color: white;
+  text-decoration: none;
+}
+.sign_up:hover {
+  color: #4f46e5; /* hover:bg-indigo-700 */
+}
+
+@media (min-width: 701px) and (max-width: 1120px) {
+ 
+}
+
+
